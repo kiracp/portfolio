@@ -5,7 +5,7 @@ Open up Terminal app
 Download XCode using `gcc` command in Terminal
 
 ### Step 2: Setting up our repository
-Log into Github. Click `New Repository`. Give it a name and a description, and check "Initialize with a README"
+Log into Github. Click *New Repository*. Give it a name and a description, and check "Initialize with a README"
 Click "Clone or download" and copy the URL, then switch to Terminal.
 
 
@@ -32,3 +32,19 @@ NOTE: The first time we do this, we may see the following:
 We'll create a page called `index.html` and styling in a `style.css` file. This will house all the content that we want on our GitHub Pages site. This repository contains some examples of those files. 
 
 Once we add some content, let's follow the git commands in Step 3 to add it to our repository. 
+
+### Step 5: Deploying our site
+Now we want to tell Github to turn our `index.html` file into an actual webpage. Click over to *Settings* and scroll down to *Github Pages*.
+
+Switch *Source* over to *master branch* in the dropdown and Save. Now, when we scroll back down, we'll see a message that our site is published! Woohoo!
+
+### Step 6: Adding more content and world domination
+Awesome! So our website is live! Now how do we make changes?
+
+It's easy. Every time we `git push` changes that we make to our local files up to the repository, the GitHub pages site will rebuild with those changes. The only danger here is that we need to make sure not to push files that are broken. Test test test!
+
+Next steps: adding images to the `public/images/...` file, making changes to our `style.css` file and adding all the content to our HTML page. 
+
+### Bonus content
+* Including Google Fonts in our website
+* Domain name transfer
