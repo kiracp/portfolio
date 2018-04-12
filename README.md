@@ -48,3 +48,4 @@ Next steps: adding images to the `public/images/...` file, making changes to our
 ### Bonus content
 * Including Google Fonts in our website
 * Domain name transfer
+* Add a gitignore
