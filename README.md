@@ -107,6 +107,7 @@ a:hover {
 * You can chain selectors in your stylesheet! 
   * Using the tag `p.content` will select all `<p>` items that also have the class `.content`
   * Using the tag `p#about` will select the `<p>` item that has the `#about` id
+  * Using `.content p` implies DESCENDENCE! So, any `<p>` tags underneath anything with the class `.content` will be affected
   * Using two class selectors like `.content .small` will select only the items that have both classes
 
 *Padding vs margin*
@@ -118,6 +119,11 @@ a:hover {
 * Padding is internal space
 * Margin is space outside of your tags
     * The best way to think of this is in terms of a "card" layout"
+* For both margin and padding, the number of specifications will determine top/bottom/left/right amounts
+  * 1: All - `{margin: 10px}` means 10px of margin all the way around
+  * 2: Top/bottom, Left/right - `{margin: 20px 0}` means 10px top/bottom, and 0px left/right
+  * 3: Top, Left/right, Bottom - `{margin: 10px 0 20px}` means 10px top, 0px left/right, 20px bottom
+  * 4: Top, left, bottom, right -`{margin: 5px 10px 15px 20px}` means 5px top, 10px left, 15px bottom, 20px right
     
 *Resources*
 * Check out this article to learn some more [css tricks](https://css-tricks.com/little-css-stuff-newcomers-get-confused-about/)
