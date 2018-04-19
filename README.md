@@ -95,7 +95,9 @@ a:hover {
 
 ### Lesson 4: Class vs ID? Padding vs Margin?
 *Class vs ID*
+
 ![class id](http://www.pxleyes.com/blog/wp-content/uploads/2010/03/idclass.jpg)
+
 * `.class` Classes are NOT unique: You can use the same class on multiple elements, and you can use multiple classes on the same element. Use classes when you are applying styling to multiple elements on the page. 
 * `#id` IDs are unique: Each element can have only one ID, and each page can have only one element with that ID. Use the id to call out a specific item 
 * Elements can have BOTH a class and an id (`<h1 class="blue" id="about">About</h1>`)
@@ -108,8 +110,11 @@ a:hover {
   * Using two class selectors like `.content .small` will select only the items that have both classes
 
 *Padding vs margin*
+
 ![padding margin](https://i.stack.imgur.com/PeSIJ.gif)
+
 ![padding margin 2](http://smad.jmu.edu/shen/webtype/imgs/margin2.png)
+
 * Padding is internal space
 * Margin is space outside of your tags
     * The best way to think of this is in terms of a "card" layout"
