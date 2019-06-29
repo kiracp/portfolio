@@ -1,9 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Muli|Bungee&display=swap');
+
+html {
+	background-color: #0F293F;
+}
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0 auto;
+  color: #092327;
+  font-family: 'Muli', sans-serif;
+    max-width: 700px;
 }
+section {
+  margin: 0 auto;
+  margin-top: 20%;
+  position: relative;
+  background-color: #F2F2F3;
+  padding: 8em 1em;
 
+}
+.avatar {
+  width: 200px;
+  opacity: 1; 
+  filter: grayscale(100%);
+  position: absolute;
+  top: -20px;
+  right: 10px;
+}
+.intro-text {
+	margin-right: 200px;
+}
+.color-lime{
+	color: #BCE784;
+}
+.color-teal{
+	color: #2AB892;
+}
+.color-blue{
+	color: #507DBC;
+}
+.color-navy{
+	color: #0F293F;
+}
+h1 {
+	margin-top: 36px;
+	text-transform: uppercase;
+	font-family: 'Bungee', sans-serif;
+}
+h1.title {
+    font-size: 2.8rem;
+    color: #0F293F;
+}
+p {
+	margin: 24px 0;
+}
+p.subtitle {
+/*	text-decoration: underline wavy red;*/
+}
 a {
-  color: #00B7FF;
+	font-weight: bold;
+	color: #2AB892;
 }
+a:hover {
+	color: #0F293F;
+}
+a.button {
+	border: transparent;
+	color:white;
+	background-color: #2AB892;
+}
+a.button:hover {
+	background-color: #0F293F;
+	transition: 0.5s;
+	color:white;
+}
+a.button.blue {
+	background-color: #0F293F;
+}
+a.button.blue:hover {
+	background-color: #0F293F;
+}
+.bottom {
+	margin: 16px 0 48px;
+	color: white;
+	justify-content: space-around;
+}
+.bottom-icons {
+	font-size: 1.2rem;
+}
+.icon
+.icon {
+  	margin-left: 8px;
+  }
 
+
+@media (max-width: 480px) {
+  section {
+  	margin-top: 0;
+  }
+  .avatar {
+  	top: 10px;
+  }
+  h1.title {
+  	margin-top: 64px;
+  }
+  .container{
+  	padding-top: 48px;
+  }
+  a.button {
+  	width: 100%;
+  }
+  .intro-text {
+    margin: 0;
+  }
+  a.button {
+  	margin-top: 16px;
+  }
+  .bottom {
+  	padding: 16px;
+    flex-wrap: wrap;
+  }
+  .bottom-icons {
+	font-size: 1.6em;
+  }
+  .icon {
+  	margin: 16px;
+  }
+}
