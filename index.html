@@ -14,125 +14,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>kira prentice dot com</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <script rel="js" src="public/js/changeColor.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <link rel="stylesheet" href="public/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Andika" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Germania+One" rel="stylesheet">
-
   </head>
-
   <body>
-  <section class="section">
-  	<img class="avatar" src="public/images/hi_its_me.png" alt="Photo of Kira">
-
-    <div class="container">
-    	<div class="is-flex top">
-      		
-      		<div class="intro-text">
-			    <h1 class="title">
-			      Kira Prentice
-			    </h1>
-			    <p class="subtitle">
-			      is a <strong>product manager</strong> and <strong>designer</strong> based in Boston.
-			    </p>
-			</div>
-		</div>
-
-      <p>
-        Currently Director of Product Management at <a href="https://www.gradifi.com/">Gradifi</a>, solving the student loan debt crisis with software. Co-founder and director of <a href="http://flawlesshacks.com/">Flawless Hacks</a>, a 501c3-status nonprofit and hackathon focused on supporting women in technical spaces. 
-      </p>
-      <p>Previously at <a href="https://www.athenahealth.com/">athenahealth</a>, <a href="https://www.capitalfactory.com/">Capital Factory</a>, and <a href="https://www.linkedin.com/in/kira-prentice-75369a6b/">others</a>. Design portfolio available upon request.
-      </p>
-      <a class="button blue" href="mailto:kira.prentice@gmail.com?Subject=I%20saw%20your%20website" target="_top">
-		  Contact Me
-	  </a>
-      <a class="button" href="https://github.com/kiracp/portfolio/blob/master/public/KP_resume19.pdf">
-		  View Resume
-	  </a>
-	  
+    <div class="top-action">
+      <a onClick="getColors()" id="remix">Remix Color <i class="fas fa-sync"></i></a>
     </div>
-</section>
-    <div class="is-flex bottom">
-      	<p class="is-marginless">
-      	  This website is under construction. Find me elsewhere &mdash;
+    <div class="flex-grid">
+      <div class="col col-lg bg-1">
+        <h1>Kira Prentice</h1>
+      </div>
+      <div class="col col-sm bg-2">
+        <h2>
+          is a product manager and designer currently based in Boston.
+        </h2>
+      </div>
+    </div>
+    <div class="flex-grid">
+      <div class="col col-sm transparent no-padding">
+        <img class="avatar" src="public/images/hi_its_me.png" alt="Photo of Kira">
+      </div>
+      <div class="col col-lg bg-3">
+        <p>
+          Currently Product Manager at <a href="https://centaurlabs.com/">Centaur Labs</a>, enabling medical data labeling at scale. Co-founder and director of <a href="http://flawlesshacks.com/">Flawless Hacks</a>, a 501c3-status nonprofit and hackathon focused on supporting women in technical spaces. 
         </p>
-        <div class="bottom-icons">
-	      	<a href="mailto:kira.prentice@gmail.com?Subject=I%20saw%20your%20website" target="_top">
-		      	<span class="icon">
-				  <i class="far fa-envelope-open"></i>
-				</span>
-		    </a>
-			<a href="https://www.linkedin.com/in/kira-prentice-75369a6b/">
-				<span class="icon">
-				  <i class="fab fa-linkedin-in"></i>
-				</span>
-			</a>
-			<a href="https://twitter.com/classickira">
-				<span class="icon">
-				  <i class="fab fa-twitter"></i>
-				</span>
-			</a>
-			<a href="https://github.com/kiracp/">
-				<span class="icon">
-				  <i class="fab fa-github"></i>
-				</span>
-			</a>
-		</div>
-	  </div>
-
-  </body>
-
-  <!--
-  <body>
-    <nav>
-      <ul class="menu" data-smooth-scroll>
-        <li><a href="#about">about</a></li>
-        <li><a href="#work">work</a></li>
-        <li><a href="#blog">blog</a></li>
-      </ul>
-    </nav>
-
-    <header class="hero"></header>
-    <section class="white" id="about">
-      <div class="text-content">
-        <h1>Howdy, I'm Kira.</h1>
-        <p>I believe in the power of design to solve real problems.</p>
-        <p>Currently a Senior UX Designer fixing healthcare at <a href="www.athenahealth.com">athenahealth</a> in Boston. My past work experience is with a portfolio of excellent startups in Austin and New York City, in design and user experience. I also enjoy teaching ESL, making collages, casual biking and distance running.</p>
-        <p><a href="https://twitter.com/classickira">twitter</a> | <a href="https://www.linkedin.com/in/kira-prentice-75369a6b">linkedin</a> | <a href="https://github.com/kiracp">github</a> | <a href="https://upload.wikimedia.org/wikipedia/commons/4/4e/Macaca_nigra_self-portrait_large.jpg">my face</a></p>
       </div>
-    </section>
-    <section class="white" id="work">
-      <div class="text-content">
-        <h1>Flawless Hacks</h1>
-        <p><a href="flawlesshacks.com">Flawless Hacks</a> is a nonprofit that hosts an annual Beyoncé-themed hackathon for women in New York City. I co-founded the 501c3-status nonprofit in 2016 with <a href="https://twitter.com/kaitlingu">Kaitlin Gu</a>. 
-        <p>In our two-year run, we have brought together more than 400 technical women for a day of keynote speakers, beginner- to advanced-level workshops and mentorship. Most exciting, almost half of Flawless Hacks attendees are at their first hackathon. Outside of the annual event, the Flawless Hacks team attends technical conferences and holds workshops about hackathon organizing. </p>
-        <p> To learn more about Flawless Hacks, visit our <a href="flawlesshacks.com">website</a> or <a href="https://www.facebook.com/flawlesshacks">facebook</a> page. And we'll see you there in April 2018!</p>
+    </div>
+    <div class="flex-grid">
+      <div class="col col-lg bg-5">
+        <p>Previously at <a href="https://www.athenahealth.com/">athenahealth</a>, <a href="https://www.capitalfactory.com/">Capital Factory</a>, and <a href="https://www.linkedin.com/in/kira-prentice-75369a6b/">others</a>. Design portfolio available upon request.
+        </p>
       </div>
-    </section>
-
-    <section class="white">
-      <div class="text-content">
-        <h1>UX for healthcare analytics</h1>
-        <p>I currently work at athenahealth, a cloud-based healthcare tech company serving more than 100,000 medical providers and millions of patients. That means loads of clinical and financial data, which we connect up to improve our clients' practice performance and share intelligence across the network. My focus is dashboards to make that healthcare data meaningful and actionable.</p>
+      <div class="col col-sm bg-4">
       </div>
-    </section>
-
-    <section class="white">
-      <div class="text-content">
-        <h1>Graphic design hustle</h1>
-        <p>Outside of work, I am generally available for freelance projects. Past clients include:</p><ul><li>Student Loan Genius (2015 <a target="_blank" href="https://www.whitehouse.gov/demo-day">White House Demo Day</a>&nbsp;participant)</li><li>LGBT Consortium of Higher Education Resource Professionals</li><li>Entrepreneurs Foundation of Central Texas</li><li>Shockwave Innovations</li><li>OwnLocal</li><li>America SCORES</li><li>AIDS Walk New York, AIDS Walk Los Angeles</li></ul></p>
+    </div>
+    <div class="flex-grid">
+      <div class="col col-xl bg-1">
+        <div>
+          <a class="button bg-3" href="mailto:kira.prentice@gmail.com?Subject=I%20saw%20your%20website" target="_top">Contact Me</a>
+          <a class="button bg-4" href="https://github.com/kiracp/portfolio/blob/master/public/KP_resume19.pdf">
+            View Resume</a>
+        </div>
+        <div>
+          <div class="icon-tray">
+            <a href="mailto:kira.prentice@gmail.com?Subject=I%20saw%20your%20website" target="_top">
+              <span class="icon">
+                <i class="far fa-envelope-open"></i>
+              </span>
+            </a>
+            <a href="https://www.linkedin.com/in/kira-prentice-75369a6b/">
+              <span class="icon">
+                <i class="fab fa-linkedin-in"></i>
+              </span>
+            </a>
+            <a href="https://twitter.com/classickira">
+              <span class="icon">
+                <i class="fab fa-twitter"></i>
+              </span>
+            </a>
+            <a href="https://github.com/kiracp/">
+              <span class="icon">
+                <i class="fab fa-github"></i>
+              </span>
+            </a>
+          </div>
+        </div>
       </div>
-    </section>
-
-    <section class="white" id="blog">
-      <div class="text-content">
-        <h1>More to come...</h1>
-        <p>This website is currently under construction. Feel free to drop me a line using the links below.</p>
-        <p><a href="https://twitter.com/classickira">twitter</a> | <a href="https://www.linkedin.com/in/kira-prentice-75369a6b">linkedin</a> | <a href="https://github.com/kiracp">github</a> | <a href="https://upload.wikimedia.org/wikipedia/commons/4/4e/Macaca_nigra_self-portrait_large.jpg">my face</a></p>
-      </div>
-    </section>
-
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/app.js"></script>
-  </body> -->
+    </div>
 </html>
+
+<script>
+  function remixColor() {
+      document.getElementById("remix").addEventListener ("click", changeColor);
+  }
+</script>

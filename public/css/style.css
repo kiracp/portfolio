@@ -1,13 +1,71 @@
 @import url('https://fonts.googleapis.com/css?family=Muli|Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,900,900i&display=swap');
 
+/*
+COLORS
+Lt Gray - DFDFDE
+Dk Gray - 121212
+Blue - 1366A5
+Green - 108755
+Yellow - CEA43B
+Red - C13232
+*/
 html {
-	background-color: #0F293F;
+	background-color: #DFDFDE;
 }
 body {
   margin: 0 auto;
-  color: #092327;
-  font-family: 'Muli', sans-serif;
-    max-width: 700px;
+  padding-top: 60px;
+  color: white;
+  font-size: 1.1rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  max-width: 900px;
+}
+.top-action {
+  text-align: right;
+  margin: 20px 0;
+  font-size: .9rem;
+}
+.top-action a {
+  color: #121212;
+}
+.flex-grid {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.col {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #121212;
+}
+.col-lg {
+  width: 65%;
+}
+.col-xl {
+  flex: 1;
+}
+.col-sm {
+  width: 33%;
+}
+.no-padding {
+  padding: 0px;
+}
+.bg-4,
+.bg-5,
+.bg-6 {
+  color: #121212;
+}
+.bg-4 a,
+.bg-5 a,
+.bg-6 a {
+  color: #121212;
+}
+.transparent {
+  background-color: transparent;
 }
 section {
   margin: 0 auto;
@@ -18,81 +76,44 @@ section {
 
 }
 .avatar {
-  width: 200px;
+  width: 180px;
   opacity: 1; 
   filter: grayscale(100%);
-  position: absolute;
-  top: -20px;
-  right: 10px;
 }
-.intro-text {
-	margin-right: 200px;
-}
-.color-lime{
-	color: #BCE784;
-}
-.color-teal{
-	color: #2AB892;
-}
-.color-blue{
-	color: #507DBC;
-}
-.color-navy{
-	color: #0F293F;
-}
+
 h1 {
-	margin-top: 36px;
 	text-transform: uppercase;
-	font-family: 'Bungee', sans-serif;
-}
-h1.title {
-    font-size: 2.8rem;
-    color: #0F293F;
-}
-p {
-	margin: 24px 0;
-}
-p.subtitle {
-/*	text-decoration: underline wavy red;*/
+  font-weight: 900;    
+  font-size: 3rem;
 }
 a {
 	font-weight: bold;
-	color: #2AB892;
+  color: white;
 }
 a:hover {
 	color: #0F293F;
 }
 a.button {
 	border: transparent;
-	color:white;
-	background-color: #2AB892;
+	color:#121212;
+  margin-right: 15px;
 }
 a.button:hover {
-	background-color: #0F293F;
-	transition: 0.5s;
-	color:white;
+	transition: 0.3s;
+  opacity: .75;
 }
-a.button.blue {
-	background-color: #0F293F;
+.icon-tray {
+  margin-top: 4px;
+	font-size: 1.4rem;
 }
-a.button.blue:hover {
-	background-color: #0F293F;
-}
-.bottom {
-	margin: 16px 0 48px;
-	color: white;
-	justify-content: space-around;
-}
-.bottom-icons {
-	font-size: 1.2rem;
-}
-.icon
 .icon {
-  	margin-left: 8px;
-  }
-
+  	margin-left: 15px;
+}
 
 @media (max-width: 480px) {
+  .flex-grid {
+    display: block;
+  }
   section {
   	margin-top: 0;
   }
