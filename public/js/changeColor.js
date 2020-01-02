@@ -10,35 +10,27 @@ function getColors() {
 	http.onreadystatechange = function() {
 		if(http.readyState == 4 && http.status == 200) {
 			var palette = JSON.parse(http.responseText).result;
-			console.log(palette);
-
 			setColors(palette);
 		}
 	}
 
 	http.open("POST", url, true);
 	http.send(JSON.stringify(data));
-
 }
 
 function setColors(palette) {
-	console.log(palette.length);
-
 	var bgColors = 5;
 
 	for (var i=1; i<=bgColors; i++) {
 		var className = "bg-" + i;
 
 		var color = "rgb(" + palette[i-1][0] + "," + palette[i-1][1] + "," + palette[i-1][2] + ")";
-		console.log(color);
 
 		var colorClasses = document.getElementsByClassName(className);
 		for (let item of colorClasses) {
 		    item.style.backgroundColor = color;
 		}
 	}
-	// var document.getElementsByClassName("bg-1");
 }
 
-console.log("called");
 getColors();
