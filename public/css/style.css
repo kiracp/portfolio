@@ -91,7 +91,7 @@ a {
   color: white;
 }
 a:hover {
-	color: #0F293F;
+  color: rgb(116,84,78);
 }
 a.button {
 	border: transparent;
@@ -111,38 +111,30 @@ a.button:hover {
 }
 
 @media (max-width: 480px) {
+  body {
+    padding-top: 30px;
+  }
   .flex-grid {
+    margin: 10px;
     display: block;
   }
-  section {
-  	margin-top: 0;
+  .top-action {
+    margin: 0 10px 20px 0;
   }
-  .avatar {
-  	top: 10px;
-  }
-  h1.title {
-  	margin-top: 64px;
-  }
-  .container{
-  	padding-top: 48px;
+  .col,
+  .col-lg,
+  .col-sm {
+    margin-bottom: 10px;
+    flex: 1;
+    width: 100%;
   }
   a.button {
-  	width: 100%;
-  }
-  .intro-text {
-    margin: 0;
-  }
-  a.button {
-  	margin-top: 16px;
-  }
-  .bottom {
-  	padding: 16px;
-    flex-wrap: wrap;
-  }
-  .bottom-icons {
-	font-size: 1.6em;
+    margin-bottom: 10px;
   }
   .icon {
   	margin: 16px;
+  }
+  .bottom-right {
+    text-align: right;
   }
 }
