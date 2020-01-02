@@ -22,6 +22,7 @@ body {
   max-width: 900px;
 }
 .action {
+  display:none;
   text-align: right;
   margin: 20px 0;
   font-size: .9rem;
@@ -58,6 +59,24 @@ body {
 }
 .no-padding {
   padding: 0px;
+}
+.bg-1 {
+  background-color: rgb(43, 43, 43);
+}
+.bg-2 {
+  background-color: rgb(116, 85, 77);
+}
+.bg-3 {
+  background-color: rgb(207, 106, 83);
+}
+.bg-4 {
+  background-color: rgb(229, 229, 174);
+}
+.bg-5 {
+  background-color: rgb(229, 229, 174);
+}
+.bg-6 {
+  background-color: rgb(205, 180, 96);
 }
 .bg-4,
 .bg-5,
