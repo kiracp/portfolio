@@ -70,22 +70,18 @@ body {
   background-color: rgb(207, 106, 83);
 }
 .bg-4 {
-  background-color: rgb(229, 229, 174);
+  background-color: rgb(205, 180, 96);
 }
 .bg-5 {
   background-color: rgb(229, 229, 174);
 }
-.bg-6 {
-  background-color: rgb(205, 180, 96);
-}
+
 .bg-4,
-.bg-5,
-.bg-6 {
+.bg-5 {
   color: #121212;
 }
 .bg-4 a,
-.bg-5 a,
-.bg-6 a {
+.bg-5 a {
   color: #121212;
 }
 .transparent {
