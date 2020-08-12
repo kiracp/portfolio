@@ -69,6 +69,7 @@ h1 {
 	text-transform: lowercase;
   font-weight: 800;
   font-size: 3rem;
+	line-height: 130%;
 }
 h2 {
 	font-size: 1.4em;
@@ -100,10 +101,10 @@ a.button:hover {
 }
 .links {
 	display: flex;
-	justify-content: space-between;
 	margin-top: 50px;
 }
 .icon-tray {
+	margin-left: auto;
   margin-top: 4px;
 	font-size: 1.4rem;
 }
@@ -124,7 +125,7 @@ a.button:hover {
     width: 100%;
   }
   a.button {
-    margin-bottom: 10px;
+    margin: 20px 0;
   }
   .icon {
   	margin: 16px;
