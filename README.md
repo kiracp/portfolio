@@ -1,7 +1,8 @@
 # Deploying a page on Github Pages
 
-## Class 1: April 12
+This portfolio site is hosted on Github Pages. Here's how you host your own. 
 
+## Basic setup
 ### Step 1: Set up our development tools
 Open up Terminal app
 Download XCode using `gcc` command in Terminal
@@ -47,7 +48,7 @@ It's easy. Every time we `git push` changes that we make to our local files up t
 
 Next steps: adding images to the `public/images/...` file, making changes to our `style.css` file and adding all the content to our HTML page. 
 
-## Class 2: April 19
+## Nice to haves
 On the docket: 
 * Adding a favicon
 * Adding top nav with a logo
@@ -56,7 +57,7 @@ On the docket:
 * Changing the width of the website
 * Add a gitignore
 
-### Lesson 1: Adding a favicon
+### Adding a favicon
 * Create your Favicon file. This should be a png (so it'll have a transparent background). It should be a square, and small (I recommend 100px x 100px). 
 * Save the png in your repository, in the same folder as the `index.html` file. Now go to Finder, and rename the file `favicon.ico`. It will warn you about changing the extension, but you can override it.
 * Next, go into your `index.html` file. In the `<head>`, add the following line: 
@@ -65,7 +66,7 @@ On the docket:
 ```
 * Push your changes!
 
-### Lesson 2: Hover color on links
+### Hover color on links
 * Go to your stylesheet file. Add a tag that looks like `a:hover`, right below your `a` definition. 
 * Here's an example of what the css should look like
 ```css
@@ -78,7 +79,7 @@ a:hover {
 ```
 * You can use this same syntax (the `tag:hover`) for any of your css definitions to change the hover behavior!
 
-### Lesson 3: Clean code
+### Clean code
 *Adding a gitignore file*
 * In the root folder of your repository, create a file called `.gitignore`
 * In that file, you can list out anything that you have on your local machine that you don't want to include in the remote repository. For example, the `.DS_Store` file is automatically generated on Mac machines, but isn't useful to have in our repository. 
@@ -93,7 +94,7 @@ a:hover {
   * Mark action items with `TODO` 
   * Add plenty of space in your css, and make sure that there's a `;` after every single line
 
-### Lesson 4: Class vs ID? Padding vs Margin?
+### Class vs ID? Padding vs Margin?
 *Class vs ID*
 
 ![class id](http://www.pxleyes.com/blog/wp-content/uploads/2010/03/idclass.jpg)
@@ -129,10 +130,3 @@ a:hover {
 * Check out this article to learn some more [css tricks](https://css-tricks.com/little-css-stuff-newcomers-get-confused-about/)
 * I love this guide to [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * Otherwise, googling (!!) and looking at other folks' code is a good way to get your questions answered
-
-Future:
-* Nav links to the right
-* Gallery padding
-* Add a CTA button
-* Add the blog and testimonial section to homepage
-* Build out portfolio page
